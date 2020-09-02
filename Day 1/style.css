@@ -239,3 +239,27 @@ input {
   padding: 57px 65px;
   padding-bottom: 65px;
 }
+
+.p-y-200 {
+  padding-top: 250px;
+  padding-bottom: 250px;
+}
+
+.avatarcard {
+  margin: auto;
+  max-width: 680px;
+}
+
+.avatarcard img {
+  height: 300px;
+  cursor: pointer;
+  border: 5px #fff solid;
+  width: auto;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.avatarcard h2 {
+  color: #fff;
+  text-align: center;
+}
