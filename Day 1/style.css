@@ -69,6 +69,10 @@ h2 {
   max-width: 680px;
 }
 
+.wrapper--w750 {
+ max-width: 750px;
+}
+
 .btn {
   display: inline-block;
   line-height: 50px;
@@ -241,8 +245,8 @@ input {
 }
 
 .p-y-200 {
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .avatarcard {
@@ -250,6 +254,10 @@ input {
   max-width: 680px;
 }
 
+.avatarcard a {
+  margin-left: 10px;
+  text-decoration: none;
+}
 .avatarcard img {
   height: 300px;
   cursor: pointer;
@@ -260,6 +268,5 @@ input {
 }
 
 .avatarcard h2 {
-  color: #fff;
   text-align: center;
 }
