@@ -2,7 +2,7 @@ GET http://localhost:3000/subscribers
 
 ###
 
-GET http://localhost:3000/subscribers/12
+GET http://localhost:3000/subscribers/5f58270aa36e79265cb5b71d
 
 ###
 
@@ -13,3 +13,7 @@ Content-Type: application/json
     "name" : "Anima Krishna",
     "subscribedToChannel" : "Beypore Sultan"
 }
+
+###
+
+DELETE http://localhost:3000/subscribers/5f582731a36e79265cb5b71e
